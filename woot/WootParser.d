@@ -35,8 +35,7 @@ class WootParser
     private T getCachedNodeValue(T)(ref T member, XPath.NodeSet nodeSet)
     {
         if (member is null) {
-            auto value = nodeSet.nodes[0].value;
-            member = decodeValue(value);
+            member = decodeValue(nodeSet.nodes[0].value);
         }
 
         return member;
