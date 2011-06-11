@@ -1,0 +1,3 @@
+#!/bin/bash
+dsss distclean
+rm *.a test_*DD-*
