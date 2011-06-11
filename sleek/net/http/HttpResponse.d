@@ -1,7 +1,6 @@
 module sleek.net.http.HttpResponse;
 
 import sleek.net.http.HttpRequest;
-
 import tango.io.model.IConduit : InputBuffer;
 
 class HttpResponse
